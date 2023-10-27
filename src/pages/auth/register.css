@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* To space out the items evenly */
+    margin-bottom: 15px; /* Some space after each row */
+}
+
+.flex-item {
+    flex: 0 0 48%; /* Take up nearly half the container's width */
+}
+.uploading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 9999;
+}
